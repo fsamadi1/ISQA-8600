@@ -1,5 +1,5 @@
 # ISQA-8600
-This is an open software license
+This is an open source license
 
 {Data Entry Analysis} and {Data Exploration} 
 
