@@ -27,3 +27,9 @@ ggplot(data=newdata)+aes(x=duration, y=program_name)+geom_jitter()
 ggplot(data = newdata) + 
 +     geom_bar(mapping = aes(x = duration))
 ```
+
+
+```
+ggplot(data = newdata) + 
++     geom_point(mapping = aes(x = duration, y = age, color = program_name))
+```
