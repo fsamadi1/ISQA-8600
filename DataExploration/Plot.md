@@ -28,6 +28,7 @@ ggplot(data = newdata) +
 +     geom_bar(mapping = aes(x = duration))
 ```
 
+![Plot 4](Rplot04.png)
 
 ```
 ggplot(data = newdata) + 
