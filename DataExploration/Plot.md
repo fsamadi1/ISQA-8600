@@ -1,6 +1,9 @@
 # Data Exploration
 
 
+
+
+
 ![Plot 1](Rplot01.png)
 
 ```
