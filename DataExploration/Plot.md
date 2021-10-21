@@ -13,4 +13,17 @@ This is an open source license
 ggplot(data=newdata)+aes(x=duration, y=program_name)+geom_jitter()
 ```
 
+![Plot 2](Rplot02.png)
 
+```
+ ggplot(data = newdata) + 
++     geom_point(mapping = aes(x = duration, y = age)) + 
++     facet_wrap(~ program_name, nrow = 2)
+```
+
+![Plot 3](Rplot03.png)
+
+```
+ggplot(data = newdata) + 
++     geom_bar(mapping = aes(x = duration))
+```
