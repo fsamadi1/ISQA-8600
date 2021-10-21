@@ -7,7 +7,7 @@ This is an open source license
 
 [Visit DataExploration!](www.github.com)
 
-![Rplot01.png]
+![Plot 1](Rplot01.png)
 
 ```
 ggplot(data=newdata)+aes(x=duration, y=program_name)+geom_jitter()
