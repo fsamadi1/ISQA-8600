@@ -10,7 +10,7 @@
 ggplot(data=newdata)+aes(x=duration, y=program_name)+geom_jitter()
 ```
 
--This plot shows a scatter plot of the duration of the different programs, such as Substance use, Mental health and Gambling. 
+- This plot shows a scatter plot of the duration of the different programs, such as Substance use, Mental health and Gambling. 
 
 
 ![Plot 2](Rplot02.png)
