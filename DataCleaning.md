@@ -1,5 +1,16 @@
 # Data Cleaning Documentation
 
+1. My research question addresses how Covid might have impacted certain services across different ages of participants. I used the columns program_name, duration and age from the HFS Service data. The program_name column contains three different services, which are: mental health, substance use and gambling. I am also using the columns duration and age. 
+
+Dataset Description:
+
+To access the data:
+
+```
+newdata=read.csv("/Users/fsamadi@unomaha.edu/Desktop/ISQA 8600/HFS Service Data.csv")
+```
+
+Program_name: This column contains three different programs which are: mental health, substance abuse gambling. There is no missing values in this column. There are a total of 8745 rows. 
 
 
 
