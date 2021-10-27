@@ -16,8 +16,9 @@ Duration: This column contains duration time during the service encounter. There
 
 Age: This column contains the clients age at the time of service. There is one missing value in this column. Therefore, this column contains 8744 values. 
 
+2.
 
-
+3. Metadata: There are a few sources that we have used as metadata, which are the data dictionary, presenation slides as well as notes from lecture. The data dictionary 
 
 
 
