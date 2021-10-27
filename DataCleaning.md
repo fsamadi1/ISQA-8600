@@ -18,7 +18,19 @@ Age: This column contains the clients age at the time of service. There is one m
 
 2.
 
-3. Metadata: There are a few sources that we have used as metadata, which are the data dictionary, presenation slides as well as notes from lecture. The data dictionary 
+3. Metadata: There are a few sources that we have used as metadata, which are the data dictionary, presenation slides as well as notes from lecture. The data to decisions presentation was useful to interpret into the project due to its helpful information about the background of Heartland Family Services. The HFS Program Summaries presentation slides have also been useful to understand more about the individual programs. The data dictionary was another great resource to better understand some aspects of the data. 
+
+4. I have encountered missing values with the columns Program_name and duration. 
+
+
+
+
+
+
+
+
+
+
 
 
 
