@@ -118,18 +118,24 @@ newdata %>% filter(age=="") %>% count()
 The next step I took is to omit all the missing values in both columns with the function na.rm().
 
 
-```
-program_name %>% 
-+     group_by(mentalhealth, substanceabuse, gambling) %>% 
-+     summarise(mean = mean(program_name, na.rm = TRUE))
-```
 
 ```
-duration %>% 
-+     group_by() %>% 
-+     summarise(mean = mean(duration, na.rm = TRUE))
+newdata <-  newdata %>% filter(duration!="") 
 
 ```
+
+
+```
+newdata <-  newdata %>% filter(age!="") 
+
+```
+
+
+```
+newdata <-  newdata %>% filter(program_name!="") 
+
+```
+
 
 
 
