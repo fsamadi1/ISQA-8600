@@ -10,9 +10,9 @@ To access the data:
 newdata=read.csv("/Users/fsamadi@unomaha.edu/Desktop/ISQA 8600/HFS Service Data.csv")
 ```
 
-Program_name: This column contains three different programs which are: mental health, substance abuse gambling. There is one missing value in this column. There is a total of 8745 values in the data, and this column therefore contains 8744 values. 
+Program_name: This column contains three different programs which are: mental health, substance abuse gambling. There is one missing value in this column. There is a total of 8745 values in the data, and this column therefore contains 8744 values. There are 87 values for gambling, 6860 values for mental health and 1798 values for substance use. 
 
-Duration: This column contains duration time during the service encounter. There are 29 missing values in this column. Therefore, this column contains 8718 values. 
+Duration: This column contains duration time during the service encounter. There are 29 missing values in this column. Therefore, this column contains 8718 values. 2813 values are recorded as 0:00, which means that there was no time spend during the programs. 
 
 Age: This column contains the clients age at the time of service. There is one missing value in this column. Therefore, this column contains 8744 values. 
 
