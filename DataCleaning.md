@@ -97,9 +97,13 @@ newdata %>% filter(age=="") %>% count()
 newdata %>% filter(duration=="") %>% count()
  n
 1 28
+
+
 newdata %>% filter(program_name=="") %>% count()
   n
 1 0
+
+
 newdata %>% filter(age=="") %>% count()
   n
 1 0
