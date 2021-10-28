@@ -41,7 +41,7 @@ program_name %>%
 
 ```
 duration %>% 
-+     group_by(mentalhealth, substanceabuse, gambling) %>% 
++     group_by() %>% 
 +     summarise(mean = mean(duration, na.rm = TRUE))
 
 ```
