@@ -22,7 +22,7 @@ Age: This column contains the clients age at the time of service. There is one m
 
 4. I have encountered missing values with the columns Program_name and duration. 
 
-5. I am planning on filling in the missing values in the columns Program_name and duration. First, I will be checking the columns Program_name and duration for NAs. 
+5. I am planning on omitting the missing values in the columns Program_name and duration. First, I will be checking the columns Program_name and duration for NAs. 
 
 ```
 tibble_data %>% filter(program_name==NA) %>% count()
@@ -30,10 +30,21 @@ tibble_data %>% filter(program_name==NA) %>% count()
 ```
 tibble_data %>% filter(duration==NA) %>% count()
 ```
+The next step I took is to omit all the missing values in both columns with the function na.rm().
 
 
+```
+program_name %>% 
++     group_by(mentalhealth, substanceabuse, gambling) %>% 
++     summarise(mean = mean(program_name, na.rm = TRUE))
+```
 
+```
+duration %>% 
++     group_by(mentalhealth, substanceabuse, gambling) %>% 
++     summarise(mean = mean(duration, na.rm = TRUE))
 
+```
 
 
 
