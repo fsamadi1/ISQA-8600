@@ -48,7 +48,7 @@ table(newdata$duration)
 
 
 
-Age: This column contains the clients age at the time of service. There is one missing value in this column. Therefore, this column contains 8744 values. 
+Age: This column contains the clients age at the time of service. There is no missing value in this column. Therefore, this column contains 8745 values. 
 
 ```
  table(newdata$age)
