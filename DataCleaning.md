@@ -22,6 +22,16 @@ Age: This column contains the clients age at the time of service. There is one m
 
 4. I have encountered missing values with the columns Program_name and duration. 
 
+5. I am planning on filling in the missing values in the columns Program_name and duration. First, I will be checking the columns Program_name and duration for NAs. 
+
+```
+tibble_data %>% filter(program_name==NA) %>% count()
+```
+```
+tibble_data %>% filter(duration==NA) %>% count()
+```
+
+
 
 
 
