@@ -1,6 +1,6 @@
 # Data Cleaning Documentation
 
-1. My research question addresses how Covid might have impacted certain services across different ages of participants. I used the columns program_name, duration and age from the HFS Service data. The program_name column contains three different services, which are: mental health, substance use and gambling. I am also using the columns duration and age. 
+My research question addresses how Covid might have impacted certain services across different ages of participants. I used the columns program_name, duration and age from the HFS Service data. The program_name column contains three different services, which are: mental health, substance use and gambling. I am also using the columns duration and age. 
 
 Dataset Description:
 
@@ -16,13 +16,12 @@ Duration: This column contains duration time during the service encounter. There
 
 Age: This column contains the clients age at the time of service. There is one missing value in this column. Therefore, this column contains 8744 values. 
 
-2.
 
-3. Metadata: There are a few sources that we have used as metadata, which are the data dictionary, presenation slides as well as notes from lecture. The data to decisions presentation was useful to interpret into the project due to its helpful information about the background of Heartland Family Services. The HFS Program Summaries presentation slides have also been useful to understand more about the individual programs. The data dictionary was another great resource to better understand some aspects of the data. 
+Metadata: There are a few sources that we have used as metadata, which are the data dictionary, presenation slides as well as notes from lecture. The data to decisions presentation was useful to interpret into the project due to its helpful information about the background of Heartland Family Services. The HFS Program Summaries presentation slides have also been useful to understand more about the individual programs. The data dictionary was another great resource to better understand some aspects of the data. 
 
-4. I have encountered missing values with the columns Program_name and duration. 
+I have encountered missing values with the columns Program_name and duration. 
 
-5. I am planning on omitting the missing values in the columns Program_name and duration. First, I will be checking the columns Program_name and duration for NAs. 
+I am planning on omitting the missing values in the columns Program_name and duration. First, I will be checking the columns Program_name and duration for NAs. 
 
 ```
 tibble_data %>% filter(program_name==NA) %>% count()
