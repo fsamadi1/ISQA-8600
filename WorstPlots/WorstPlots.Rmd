@@ -1,6 +1,6 @@
 ## Worst Plots
 
-```
+``` {r}
 summary (newdata)
 library (ggplot2)
 ggplot(data=newdata)+aes(x=age, y=duration)+geom_jitter()
