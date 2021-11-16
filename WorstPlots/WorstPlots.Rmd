@@ -17,12 +17,11 @@ library (ggplot2)
 ggplot(data=newdata)+geom_point(mapping=aes(x=age, y=duration, color=age, size=duration))
 ```
 
-This plot is not the best one, because it is not recommneded to use size for a discrete variable, in this case, duration. Also, the column duration is not neat and needs to be reorganized nicely in order to be more visible and readable. 
+This plot is not the best one, because it is not recommneded to use size for a discrete variable, in this case, duration. Also, the column duration is not neat and needs to be reorganized nicely in order to be more visible and readable. This plot makes no sense and can distract the viewer too easily with pointless add ons. 
 
 ``` {r}
 ggplot(data = newdata) + geom_bar(mapping = aes(x = program_name), color="pink")+facet_wrap(~program_name, nrow=2)
 ```
 
-This plot is another example of a bad plot, because it is using an unnecessary color that is not really needed for the visualization of the plot.
-It makes the plot appear unprofessional.
+This plot is another example of a bad plot, because it is using an unnecessary color that is not really needed for the visualization of the plot. It makes the plot appear unprofessional. Also, the plot is not making a lot of sense and is not telling a lot about the data. 
 
