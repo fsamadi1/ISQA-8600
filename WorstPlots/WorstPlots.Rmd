@@ -1,5 +1,9 @@
 ## Worst Plots
 
+
+
+![WorstPlots1](WorstPlots1.png)
+
 ``` {r}
 summary (newdata)
 library (ggplot2)
