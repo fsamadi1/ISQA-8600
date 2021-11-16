@@ -1,9 +1,15 @@
 ## Worst Plots
 
 ``` {r}
+
 summary (newdata)
 library (ggplot2)
-ggplot(data=newdata)+aes(x=age, y=duration)+geom_jitter()
+ggplot(data=newdata)+geom_point(mapping=aes(x=age, y=duration, color=age, size=duration))
 
 ```
+This plot is not the best one, because it is not recommneded to use size for a discrete variable, in this case, duration. Also, the column duration is not neat and needs to be reorganized nicely in order to be more visible and readable. 
+
+``` {r}
+```
+
 
