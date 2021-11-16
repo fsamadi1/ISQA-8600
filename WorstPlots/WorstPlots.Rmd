@@ -1,10 +1,17 @@
-## Worst Plots
+---
+title: "WorstPlots"
+author: "Farial"
+date: "11/16/2021"
+output: html_document
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-
-![WorstPlots1](WorstPlots1.png)
 
 ``` {r}
+newdata=read.csv("/Users/fsamadi@unomaha.edu/Desktop/ISQA 8600/HFS Service Data.csv")
 summary (newdata)
 library (ggplot2)
 ggplot(data=newdata)+geom_point(mapping=aes(x=age, y=duration, color=age, size=duration))
@@ -13,9 +20,9 @@ ggplot(data=newdata)+geom_point(mapping=aes(x=age, y=duration, color=age, size=d
 This plot is not the best one, because it is not recommneded to use size for a discrete variable, in this case, duration. Also, the column duration is not neat and needs to be reorganized nicely in order to be more visible and readable. 
 
 ``` {r}
-ggplot(data = newdata) + geom_bar(mapping = aes(x = program_name), color="pink")
-+facet_wrap(~program_name, nrow=2)
+ggplot(data = newdata) + geom_bar(mapping = aes(x = program_name), color="pink")+facet_wrap(~program_name, nrow=2)
 ```
 
 This plot is another example of a bad plot, because it is using an unnecessary color that is not really needed for the visualization of the plot.
 It makes the plot appear unprofessional.
+
