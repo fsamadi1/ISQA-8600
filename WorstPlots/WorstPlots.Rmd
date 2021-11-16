@@ -21,4 +21,5 @@ ggplot(data = newdata) + geom_bar(mapping = aes(x = program_name), color="pink")
 
 ```
 
-This plot is another example of a bad plot, because it is using an unnecessary color that is not really needed for the visualization of the plot. It makes the plot appear unprofessional.
+This plot is another example of a bad plot, because it is using an unnecessary color that is not really needed for the visualization of the plot.
+It makes the plot appear unprofessional.
